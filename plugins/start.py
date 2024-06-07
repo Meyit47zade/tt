@@ -6,12 +6,12 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Updates Channel", url="https://t.me/SDBOTs_inifinity")
+        [InlineKeyboardButton("Sahip Olduklarım", url="https://t.me/OfficiallKiyiciSahip")
       ],
       [ 
         InlineKeyboardButton(
-            "Support Group", url="https://t.me/SDBOTz")]
+            "Support", url="https://t.me/OfficialKiyici")]
     ])
-    welcomed = f"<b> Hey {message.from_user.first_name} , \n\nI'm YouTube DL Bot. I can download video or audio f\n rom Youtube. \n\nMade by @SDBOTs_inifinity 🇱🇰/help for More info </b>"
+    welcomed = f"<b> Merhaba {message.from_user.first_name}, \n\nBen YouTube DL Bot'um. Youtube'dan video veya ses indirebilirim. \n\nDaha fazla bilgi için /help - @OfficialKiyici </b>"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagatio
