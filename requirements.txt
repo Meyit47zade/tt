@@ -1,6 +1,6 @@
 TgCrypto
 https://raw.githubusercontent.com/HasibulKabir/pyrogramarchive/master/pyrogramasync.zip
-pyrogram.async
+pyrogram
 git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
